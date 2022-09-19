@@ -238,6 +238,25 @@ $td: 0.1s;
 		justify-content: space-between;
 		margin-top: 90px;
 	}
+	
+	&__group2 {
+		margin-top: 145px;
+	}
+
+	&__information {
+		margin-top: 20px;
+	}
+
+	&__title-h5 {
+		text-align: left !important;
+	}
+
+	&__paragraf {
+	}
+
+	&__btn-more {
+	}
+}
 
 .backgr-svg {
 
@@ -273,16 +292,19 @@ $td: 0.1s;
 		text-transform: uppercase;
 	}
 
-	&__title {
+	&__title-h5 {
 		margin-top: 25px;
 		color: #111;
-		font-family: Overpass;
-		letter-spacing: -2.6px;
-		line-height: 57px;
-		font-size: 50px;
-		font-weight: 800;
-		text-align: center;
 	}
+}
+
+.title-h5{
+	font-family: Overpass;
+	letter-spacing: -2.6px;
+	line-height: 57px;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
 }
 
 .info-card-type1 {
@@ -333,5 +355,4 @@ $td: 0.1s;
 		font-size: 16px;
 		line-height: 28px;
 	}
-
-}}
+}
