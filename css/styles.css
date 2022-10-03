@@ -351,6 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 .sec1 {
   position: relative;
   height: 3600px;
+  background: #faf0eb;
 }
 .sec1__content {
   top: 152px;
@@ -452,4 +453,52 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-size: 16px;
   line-height: 28px;
+}
+
+.section-flex {
+  margin-top: 190px;
+}
+.section-flex__content {
+  margin-top: 120px;
+  height: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-flex__wrapper {
+  height: 48%;
+}
+.section-flex__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 31.5%;
+  height: 84%;
+}
+.section-flex__column:first-child {
+  align-self: flex-start;
+}
+.section-flex__column:nth-child(2) {
+  align-self: center;
+}
+.section-flex__column:last-child {
+  align-self: flex-end;
+}
+.content-in-card_add-btn {
+  padding: 60px 30px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  background: #fff;
+}
+.content-in-card_add-btn * {
+  margin: 0;
+}
+
+.title-subtitle_ta-left * {
+  text-align: right;
 }

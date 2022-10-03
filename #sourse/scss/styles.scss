@@ -227,6 +227,7 @@ $td: 0.1s;
 .sec1 {
 	position: relative;
 	height: 3600px;
+	background: #faf0eb;
 	&__content {
 		top: 152px;
 		height: 3200px;
@@ -354,5 +355,53 @@ $td: 0.1s;
 		font-weight: 700;
 		font-size: 16px;
 		line-height: 28px;
+	}
+}
+
+.section-flex {
+	margin-top: 190px;
+	&__content {
+		margin-top: 120px;
+		height: 1170px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__wrapper{
+		height: 48%;
+	}
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 31.5%;
+		height: 84%;
+		&:first-child{align-self: flex-start;}
+		&:nth-child(2){align-self: center;}
+		&:last-child{align-self: flex-end;}
+	}
+
+	&__element {
+	}
+}
+.content-in-card {
+	&_add-btn {
+		* {margin: 0;}
+		padding: 60px 30px;
+		display: flex;
+		width: 100%;
+		height: 100%;
+		flex: 1 1 auto;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		border-radius: 25px;
+		background: #fff;
+	}
+}
+.title-subtitle{
+	&_ta-left{
+		* {text-align: right;}
 	}
 }
